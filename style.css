@@ -225,7 +225,7 @@ h3 {
 
 /* main-visual */
 .main-visual {
-  background-image: url(img/102818_l.jpg);
+  background-image: url(./102818_l.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
