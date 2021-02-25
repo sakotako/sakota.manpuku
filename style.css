@@ -346,9 +346,14 @@ h3 {
   list-style: none;
 }
 .pickup .column__item {
-  width: 32.5%;
+  width: 49%;
   border: 1px solid #ccc;
   text-align: center;
+}
+@media (min-width:768px) {
+  .pickup .column__item {
+    width: 32.5%;
+  }
 }
 .pickup .column__item p {
   margin: 16px;
