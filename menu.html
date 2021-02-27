@@ -6,6 +6,14 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
   <title>居酒屋まん福 大名店</title>
+  <script src="jquery-3.1.1.min.js"></script>
+  <script>
+$(function() {
+  $(".menu h3").click(function() {
+    $("+.aaa",this).slideToggle(200);
+  });
+});
+  </script>
 </head>
 
 <body>
@@ -76,183 +84,199 @@
         <div class="menu-list column">
           <div class="menu-list__item">
             <h3>刺身</h3>
-            <dl>
-              <dt>刺し盛り １人前</dt>
-              <dd>1,080円</dd>
-            </dl>
-            <dl>
-              <dt>刺し盛り ２〜３人前</dt>
-              <dd>2,280円</dd>
-            </dl>
-            <dl>
-              <dt>刺し盛り ４〜５人前</dt>
-              <dd>3,580円</dd>
-            </dl>
-            <dl>
-              <dt>タイ刺</dt>
-              <dd>630円</dd>
-            </dl>
-            <dl>
-              <dt>ヒラメ刺</dt>
-              <dd>630円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>刺し盛り １人前</dt>
+                <dd>1,080円</dd>
+              </dl>
+              <dl>
+                <dt>刺し盛り ２〜３人前</dt>
+                <dd>2,280円</dd>
+              </dl>
+              <dl>
+                <dt>刺し盛り ４〜５人前</dt>
+                <dd>3,580円</dd>
+              </dl>
+              <dl>
+                <dt>タイ刺</dt>
+                <dd>630円</dd>
+              </dl>
+              <dl>
+                <dt>ヒラメ刺</dt>
+                <dd>630円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>野菜</h3>
-            <dl>
-              <dt>ポテトサラダ</dt>
-              <dd>430円</dd>
-            </dl>
-            <dl>
-              <dt>あっさり大根サラダ</dt>
-              <dd>490円</dd>
-            </dl>
-            <dl>
-              <dt>シーザーズサラダ</dt>
-              <dd>590円</dd>
-            </dl>
-            <dl>
-              <dt>まん福わいわいサラダ</dt>
-              <dd>730円</dd>
-            </dl>
-            <dl>
-              <dt>野菜と魚のカルパッチョ</dt>
-              <dd>790円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>ポテトサラダ</dt>
+                <dd>430円</dd>
+              </dl>
+              <dl>
+                <dt>あっさり大根サラダ</dt>
+                <dd>490円</dd>
+              </dl>
+              <dl>
+                <dt>シーザーズサラダ</dt>
+                <dd>590円</dd>
+              </dl>
+              <dl>
+                <dt>まん福わいわいサラダ</dt>
+                <dd>730円</dd>
+              </dl>
+              <dl>
+                <dt>野菜と魚のカルパッチョ</dt>
+                <dd>790円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>酒のとも</h3>
-            <dl>
-              <dt>枝豆</dt>
-              <dd>390円</dd>
-            </dl>
-            <dl>
-              <dt>レアチーズやっこ</dt>
-              <dd>390円</dd>
-            </dl>
-            <dl>
-              <dt>手作り明太子</dt>
-              <dd>490円</dd>
-            </dl>
-            <dl>
-              <dt>明太子の炙り焼き</dt>
-              <dd>490円</dd>
-            </dl>
-            <dl>
-              <dt>生ハムとスモークチーズ</dt>
-              <dd>590円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>枝豆</dt>
+                <dd>390円</dd>
+              </dl>
+              <dl>
+                <dt>レアチーズやっこ</dt>
+                <dd>390円</dd>
+              </dl>
+              <dl>
+                <dt>手作り明太子</dt>
+                <dd>490円</dd>
+              </dl>
+              <dl>
+                <dt>明太子の炙り焼き</dt>
+                <dd>490円</dd>
+              </dl>
+              <dl>
+                <dt>生ハムとスモークチーズ</dt>
+                <dd>590円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>揚げ物</h3>
-            <dl>
-              <dt>フライドポテト</dt>
-              <dd>430円</dd>
-            </dl>
-            <dl>
-              <dt>若鶏の唐揚げ</dt>
-              <dd>530円</dd>
-            </dl>
-            <dl>
-              <dt>手羽先の唐揚げ</dt>
-              <dd>530円</dd>
-            </dl>
-            <dl>
-              <dt>明太の天ぷら</dt>
-              <dd>590円</dd>
-            </dl>
-            <dl>
-              <dt>チキン南蛮</dt>
-              <dd>590円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>フライドポテト</dt>
+                <dd>430円</dd>
+              </dl>
+              <dl>
+                <dt>若鶏の唐揚げ</dt>
+                <dd>530円</dd>
+              </dl>
+              <dl>
+                <dt>手羽先の唐揚げ</dt>
+                <dd>530円</dd>
+              </dl>
+              <dl>
+                <dt>明太の天ぷら</dt>
+                <dd>590円</dd>
+              </dl>
+              <dl>
+                <dt>チキン南蛮</dt>
+                <dd>590円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>一品料理</h3>
-            <dl>
-              <dt>手作り一口焼き餃子</dt>
-              <dd>490円</dd>
-            </dl>
-            <dl>
-              <dt>料亭だし巻き玉子</dt>
-              <dd>590円</dd>
-            </dl>
-            <dl>
-              <dt>チーズ入りだし巻き玉子</dt>
-              <dd>630円</dd>
-            </dl>
-            <dl>
-              <dt>明太入りだし巻き玉子</dt>
-              <dd>630円</dd>
-            </dl>
-            <dl>
-              <dt>特製牛タンの岩塩焼き</dt>
-              <dd>990円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>手作り一口焼き餃子</dt>
+                <dd>490円</dd>
+              </dl>
+              <dl>
+                <dt>料亭だし巻き玉子</dt>
+                <dd>590円</dd>
+              </dl>
+              <dl>
+                <dt>チーズ入りだし巻き玉子</dt>
+                <dd>630円</dd>
+              </dl>
+              <dl>
+                <dt>明太入りだし巻き玉子</dt>
+                <dd>630円</dd>
+              </dl>
+              <dl>
+                <dt>特製牛タンの岩塩焼き</dt>
+                <dd>990円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>焼き物</h3>
-            <dl>
-            <dt>子持ちししゃも</dt>
-            <dd>490円</dd>
-            </dl>
-            <dl>
-              <dt>有頭海老の塩焼き</dt>
-              <dd>530円</dd>
-            </dl>
-            <dl>
-              <dt>真ほっけの開き</dt>
-              <dd>690円</dd>
-            </dl>
-            <dl>
-              <dt>大あじの開き</dt>
-              <dd>690円</dd>
-            </dl>
-            <dl>
-              <dt>銀だらの西京焼き</dt>
-              <dd>790円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+              <dt>子持ちししゃも</dt>
+              <dd>490円</dd>
+              </dl>
+              <dl>
+                <dt>有頭海老の塩焼き</dt>
+                <dd>530円</dd>
+              </dl>
+              <dl>
+                <dt>真ほっけの開き</dt>
+                <dd>690円</dd>
+              </dl>
+              <dl>
+                <dt>大あじの開き</dt>
+                <dd>690円</dd>
+              </dl>
+              <dl>
+                <dt>銀だらの西京焼き</dt>
+                <dd>790円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>〆のもの各種</h3>
-            <dl>
-              <dt>海苔おにぎり</dt>
-              <dd>390円</dd>
-            </dl>
-            <dl>
-              <dt>梅、鮭、明太おにぎり</dt>
-              <dd>430円</dd>
-            </dl>
-            <dl>
-              <dt>海苔茶漬け</dt>
-              <dd>430円</dd>
-            </dl>
-            <dl>
-              <dt>梅、鮭、明太茶漬け</dt>
-              <dd>430円</dd>
-            </dl>
-            <dl>
-              <dt>鮭マヨチャーハン</dt>
-              <dd>590円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>海苔おにぎり</dt>
+                <dd>390円</dd>
+              </dl>
+              <dl>
+                <dt>梅、鮭、明太おにぎり</dt>
+                <dd>430円</dd>
+              </dl>
+              <dl>
+                <dt>海苔茶漬け</dt>
+                <dd>430円</dd>
+              </dl>
+              <dl>
+                <dt>梅、鮭、明太茶漬け</dt>
+                <dd>430円</dd>
+              </dl>
+              <dl>
+                <dt>鮭マヨチャーハン</dt>
+                <dd>590円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>デザート</h3>
-            <dl>
-              <dt>バニラ、抹茶アイス</dt>
-              <dd>330円</dd>
-            </dl>
-            <dl>
-              <dt>レアチーズケーキ</dt>
-              <dd>380円</dd>
-            </dl>
-            <dl>
-              <dt>雪見きなこ</dt>
-              <dd>380円</dd>
-            </dl>
-            <dl>
-              <dt>きなこわらび餅</dt>
-              <dd>380円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>バニラ、抹茶アイス</dt>
+                <dd>330円</dd>
+              </dl>
+              <dl>
+                <dt>レアチーズケーキ</dt>
+                <dd>380円</dd>
+              </dl>
+              <dl>
+                <dt>雪見きなこ</dt>
+                <dd>380円</dd>
+              </dl>
+              <dl>
+                <dt>きなこわらび餅</dt>
+                <dd>380円</dd>
+              </dl>
+            </div>
           </div>
         </div>
       </div>
@@ -268,187 +292,203 @@
         <div class="menu-list column">
           <div class="menu-list__item">
             <h3>ビール</h3>
-            <dl>
-              <dt>生ビール(中)</dt>
-              <dd>390円</dd>
-            </dl>
-            <dl>
-              <dt>瓶ビール(中)</dt>
-              <dd>480円</dd>
-            </dl>
-            <dl>
-              <dt>コロナ</dt>
-              <dd>580円</dd>
-            </dl>
-            <dl>
-              <dt>ビンタン</dt>
-              <dd>580円</dd>
-            </dl>
-            <dl>
-              <dt>ノンアルコールFREE</dt>
-              <dd>390円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>生ビール(中)</dt>
+                <dd>390円</dd>
+              </dl>
+              <dl>
+                <dt>瓶ビール(中)</dt>
+                <dd>480円</dd>
+              </dl>
+              <dl>
+                <dt>コロナ</dt>
+                <dd>580円</dd>
+              </dl>
+              <dl>
+                <dt>ビンタン</dt>
+                <dd>580円</dd>
+              </dl>
+              <dl>
+                <dt>ノンアルコールFREE</dt>
+                <dd>390円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>チューハイ</h3>
-            <dl>
-              <dt>レモン</dt>
-              <dd>420円</dd>
-            </dl>
-            <dl>
-              <dt>ライム</dt>
-              <dd>420円</dd>
-            </dl>
-            <dl>
-              <dt>パイン</dt>
-              <dd>420円</dd>
-            </dl>
-            <dl>
-              <dt>マスカット</dt>
-              <dd>450円</dd>
-            </dl>
-            <dl>
-              <dt>青りんご</dt>
-              <dd>450円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>レモン</dt>
+                <dd>420円</dd>
+              </dl>
+              <dl>
+                <dt>ライム</dt>
+                <dd>420円</dd>
+              </dl>
+              <dl>
+                <dt>パイン</dt>
+                <dd>420円</dd>
+              </dl>
+              <dl>
+                <dt>マスカット</dt>
+                <dd>450円</dd>
+              </dl>
+              <dl>
+                <dt>青りんご</dt>
+                <dd>450円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>ハイボール各種</h3>
-            <dl>
-              <dt>ハイボール</dt>
-              <dd>390円</dd>
-            </dl>
-            <dl>
-              <dt>ジンジャーハイボール</dt>
-              <dd>430円</dd>
-            </dl>
-            <dl>
-              <dt>コークハイボール</dt>
-              <dd>430円</dd>
-            </dl>
-            <dl>
-              <dt>山崎ハイボール</dt>
-              <dd>580円</dd>
-            </dl>
-            <dl>
-              <dt>白州ハイボール</dt>
-              <dd>580円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>ハイボール</dt>
+                <dd>390円</dd>
+              </dl>
+              <dl>
+                <dt>ジンジャーハイボール</dt>
+                <dd>430円</dd>
+              </dl>
+              <dl>
+                <dt>コークハイボール</dt>
+                <dd>430円</dd>
+              </dl>
+              <dl>
+                <dt>山崎ハイボール</dt>
+                <dd>580円</dd>
+              </dl>
+              <dl>
+                <dt>白州ハイボール</dt>
+                <dd>580円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>地焼酎</h3>
-            <dl>
-              <dt>森伊蔵　極上の一滴</dt>
-              <dd>1,400円</dd>
-            </dl>
-            <dl>
-              <dt>森伊蔵</dt>
-              <dd>1,000円</dd>
-            </dl>
-            <dl>
-              <dt>伊佐美</dt>
-              <dd>900円</dd>
-            </dl>
-            <dl>
-              <dt>三岳</dt>
-              <dd>600円</dd>
-            </dl>
-            <dl>
-              <dt>赤兎馬</dt>
-              <dd>500円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>森伊蔵　極上の一滴</dt>
+                <dd>1,400円</dd>
+              </dl>
+              <dl>
+                <dt>森伊蔵</dt>
+                <dd>1,000円</dd>
+              </dl>
+              <dl>
+                <dt>伊佐美</dt>
+                <dd>900円</dd>
+              </dl>
+              <dl>
+                <dt>三岳</dt>
+                <dd>600円</dd>
+              </dl>
+              <dl>
+                <dt>赤兎馬</dt>
+                <dd>500円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>おすすめの地酒</h3>
-            <dl>
-              <dt>男山　純米</dt>
-              <dd>550円</dd>
-            </dl>
-            <dl>
-              <dt>泉十段</dt>
-              <dd>600円</dd>
-            </dl>
-            <dl>
-              <dt>すず音</dt>
-              <dd>1,200円</dd>
-            </dl>
-            <dl>
-              <dt>八海山　本醸造</dt>
-              <dd>550円</dd>
-            </dl>
-            <dl>
-              <dt>久保田　千寿</dt>
-              <dd>550円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>男山　純米</dt>
+                <dd>550円</dd>
+              </dl>
+              <dl>
+                <dt>泉十段</dt>
+                <dd>600円</dd>
+              </dl>
+              <dl>
+                <dt>すず音</dt>
+                <dd>1,200円</dd>
+              </dl>
+              <dl>
+                <dt>八海山　本醸造</dt>
+                <dd>550円</dd>
+              </dl>
+              <dl>
+                <dt>久保田　千寿</dt>
+                <dd>550円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>カクテル</h3>
-            <dl>
-              <dt>ジントニック</dt>
-              <dd>520円</dd>
-            </dl>
-            <dl>
-              <dt>モスコミュール</dt>
-              <dd>520円</dd>
-            </dl>
-            <dl>
-              <dt>スクリュードライバー</dt>
-              <dd>520円</dd>
-            </dl>
-            <dl>
-              <dt>カシスオレンジ</dt>
-              <dd>520円</dd>
-            </dl>
-            <dl>
-              <dt>カルアミルク</dt>
-              <dd>520円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>ジントニック</dt>
+                <dd>520円</dd>
+              </dl>
+              <dl>
+                <dt>モスコミュール</dt>
+                <dd>520円</dd>
+              </dl>
+              <dl>
+                <dt>スクリュードライバー</dt>
+                <dd>520円</dd>
+              </dl>
+              <dl>
+                <dt>カシスオレンジ</dt>
+                <dd>520円</dd>
+              </dl>
+              <dl>
+                <dt>カルアミルク</dt>
+                <dd>520円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>果実酒各種</h3>
-            <dl>
-              <dt>梅酒</dt>
-              <dd>420円</dd>
-            </dl>
-            <dl>
-              <dt>巨峰酒</dt>
-              <dd>420円</dd>
-            </dl>
-            <dl>
-              <dt>あんず酒</dt>
-              <dd>420円</dd>
-            </dl>
-            <dl>
-              <dt>ライチ酒</dt>
-              <dd>420円</dd>
-            </dl>
-            <dl>
-              <dt>白桃酒</dt>
-              <dd>420円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>梅酒</dt>
+                <dd>420円</dd>
+              </dl>
+              <dl>
+                <dt>巨峰酒</dt>
+                <dd>420円</dd>
+              </dl>
+              <dl>
+                <dt>あんず酒</dt>
+                <dd>420円</dd>
+              </dl>
+              <dl>
+                <dt>ライチ酒</dt>
+                <dd>420円</dd>
+              </dl>
+              <dl>
+                <dt>白桃酒</dt>
+                <dd>420円</dd>
+              </dl>
+            </div>
           </div>
           <div class="menu-list__item">
             <h3>ソフトドリンク</h3>
-            <dl>
-              <dt>ウーロン茶</dt>
-              <dd>300円</dd>
-            </dl>
-            <dl>
-              <dt>コカコーラ</dt>
-              <dd>320円</dd>
-            </dl>
-            <dl>
-              <dt>ジンジャエール</dt>
-              <dd>320円</dd>
-            </dl>
-            <dl>
-              <dt>カルピス</dt>
-              <dd>320円</dd>
-            </dl>
-            <dl>
-              <dt>オレンジ100％</dt>
-              <dd>350円</dd>
-            </dl>
+            <div class="aaa">
+              <dl>
+                <dt>ウーロン茶</dt>
+                <dd>300円</dd>
+              </dl>
+              <dl>
+                <dt>コカコーラ</dt>
+                <dd>320円</dd>
+              </dl>
+              <dl>
+                <dt>ジンジャエール</dt>
+                <dd>320円</dd>
+              </dl>
+              <dl>
+                <dt>カルピス</dt>
+                <dd>320円</dd>
+              </dl>
+              <dl>
+                <dt>オレンジ100％</dt>
+                <dd>350円</dd>
+              </dl>
+            </div>
           </div>
         </div>
       </div>
