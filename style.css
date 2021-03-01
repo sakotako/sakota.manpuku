@@ -367,8 +367,12 @@ h3 {
 .menu p {
   text-align: center;
 }
+.menu .menu-list {
+  width: 80%;
+  margin: 0 auto;
+}
 .menu .menu-list__item {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
