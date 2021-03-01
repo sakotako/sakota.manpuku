@@ -378,7 +378,7 @@ h3 {
 }
 @media (min-width:768px) {
   .menu .menu-list__item {
-    width: 48%;
+    width: 46%;
   }
 }
 .menu .menu-list__item dl {
