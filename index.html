@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="normalize.css">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
   <title>居酒屋まん福 大名店</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="js/vegas.min.css">
+  <link rel="stylesheet" type="text/css" href="js/slick.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="js/slick-theme.css" media="screen" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -32,7 +35,7 @@
     <section class="main-visual">
       <div class="container container__large">
         <div class="container__inner">
-          <img src="./logo.jpg" alt="" class="main-visual__title">
+          <img src="img/logo.jpg" alt="" class="main-visual__title">
           <p class="main-visual__content">
             「まん腹食べて、まん腹飲んで、まん腹話して、まん腹話して欲しい」
             <br>
@@ -47,7 +50,7 @@
         <h2 class="heading01">自慢の一品</h2>
         <div class="media-object">
           <div class="media-object__img">
-            <img src="./3635916_l.jpg" alt="やりいかの活造り">
+            <img src="img/3635916_l.jpg" alt="やりいかの活造り">
           </div>
           <div class="media-object__content">
             <h3>やりいかの活造り</h3>
@@ -59,7 +62,7 @@
         </div>
         <div class="media-object media-object__reverse">
           <div class="media-object__img">
-            <img src="./746443_l.jpg" alt="もつ鍋">
+            <img src="img/746443_l.jpg" alt="もつ鍋">
           </div>
           <div class="media-object__content">
             <h3>もつ鍋</h3>
@@ -80,15 +83,15 @@
           集めた約45種類の焼酎・地酒もございますので、お好みの一杯が見つかること間違いなし！
         </p>
       </div>
-      <ul class="gallery">
-        <li class="gallery__item">
-          <img src="./326360_l.jpg" alt="">
+      <ul class="slider">
+        <li class="slider__item">
+          <img src="img/326360_l.jpg" alt="">
         </li>
-        <li class="gallery__item">
-          <img src="./1431267_l.jpg" alt="">
+        <li class="slider__item">
+          <img src="img/1431267_l.jpg" alt="">
         </li>
-        <li class="gallery__item">
-          <img src="./3504943_l.jpg" alt="">
+        <li class="slider__item">
+          <img src="img/3504943_l.jpg" alt="">
         </li>
       </ul>
     </section>
@@ -107,7 +110,7 @@
     <div class="container">
       <div class="site-footer">
         <div class="site-footer__title">
-          <img src="./logo.jpg" alt="" class="site-footer__img">
+          <img src="img/logo.jpg" alt="" class="site-footer__img">
           <p>ご予約、お問い合わせ
             <br><strong>☎︎０９２-〇〇〇-〇〇〇〇</strong>
           </p>
@@ -150,4 +153,31 @@
   <div class="go-to-top">
     <button type="button" class="btn" onclick="location.href='#'">▲</button>
   </div>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/vegas.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script>
+$(function() {
+  $('.main-visual').vegas({
+  overlay: true,
+  transitionDuration: 2000,
+  delay: 5000,
+  animation: 'random',
+  animationDuration: 20000,
+  slides: [
+    { src: 'img/102818_l.jpg' },
+    { src: 'img/3722272_l.jpg' },
+    { src: 'img/529821_l.jpg' }
+  ]
+  });
+});
+$(function() {
+  $('.slider').slick({
+    autoplay:true,
+    autoplaySpeed:2500,
+    dots:true,
+  });
+});
+  </script>
 </body>
