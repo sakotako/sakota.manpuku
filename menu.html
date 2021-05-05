@@ -538,9 +538,11 @@
   <script src="jquery-3.6.0.min.js"></script>
   <script>
 $(function() {
-  $(".menu h3").click(function() {
-    $("+.aaa",this).slideToggle(200);
-  });
+  if (window.matchMedia( "(max-width: 768px)" ).matches) {
+    $(".menu h3").click(function() {
+      $("+.aaa",this).slideToggle(200);
+    });
+  }
 });
   </script>
 </body>
